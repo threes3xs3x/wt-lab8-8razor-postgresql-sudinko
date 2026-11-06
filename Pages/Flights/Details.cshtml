@@ -24,6 +24,7 @@
                     </ul>
 
                     <a asp-page="./Index" class="btn btn-outline-secondary">Назад к списку</a>
+                    <a asp-page="./Edit" asp-route-id="@Model.Flight.Id" class="btn btn-outline-primary">Редактировать</a>
                                         <a asp-page="./Delete" asp-route-id="@Model.Flight.Id" class="btn btn-outline-danger">Удалить</a>
                 </div>
             </div>

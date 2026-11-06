@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace wt_lab5_5razor_sudinko.Models;
+namespace wt_lab8_8razor_postgresql_sudinko.Models;
 
 public class Flight
 {
@@ -20,4 +20,5 @@ public class Flight
     public decimal Price { get; set; }
 
     public bool IsAvailable { get; set; }
+    public string Description { get; set; } = "";
 }
